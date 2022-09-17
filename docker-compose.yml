@@ -13,4 +13,5 @@ services:
       - "4559-4564:4559-4564"
     expose:
       - 21
+    network_mode: host
     restart: always
